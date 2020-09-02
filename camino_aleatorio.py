@@ -6,7 +6,7 @@ from coordenada import Coordenada
 def caminata(campo, borracho, pasos):
     inicio = campo.obtener_coordenada(borracho)
 
-    for _ in rango(pasos):
+    for _ in range(pasos):
         campo.mover_borracho(borracho)
 
         return inicio.distancia(campo.obtener_coordenada(borracho))
