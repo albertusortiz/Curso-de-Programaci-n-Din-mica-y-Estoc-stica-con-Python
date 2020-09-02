@@ -19,7 +19,7 @@ def fibonacci_dinamico(n, memo = {}):
         return resultado
 
 if __name__ == '__main__':
-    sys.setrecursionlimit(10002)
+    sys.setrecursionlimit(10002) #Aqui definimos que Python pueda ser recursivo 10002 veces.
     n = int(input('Escoge un numero: '))
     resultado = fibonacci_dinamico(n)
     print(resultado)
