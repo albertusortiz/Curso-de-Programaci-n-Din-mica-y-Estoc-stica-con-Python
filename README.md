@@ -1,4 +1,5 @@
 # Curso-de-Programaci-n-Din-mica-y-Estoc-stica-con-Python
+# https://github.com/albertusortiz/Curso-de-Programaci-n-Din-mica-y-Estoc-stica-con-Python
 
 Con David Aroesti en este curso aprenderemos a:
 - Cuando utilizar programacion Dinamica y sus beneficios.
