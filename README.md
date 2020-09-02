@@ -22,3 +22,8 @@ Para entender mejor el porque de los diccionarios, nuestro compañero @Daniel To
 
 Fuente: https://platzi.com/comentario/1348051/
 ***********************************************************************************************************************************
+## Camino de Borrachos
+
+En el siguiente link hay un comentario de un companero explicando el problema de este ejemplo paso a paso:
+https://platzi.com/comentario/1367138/
+***********************************************************************************************************************************
