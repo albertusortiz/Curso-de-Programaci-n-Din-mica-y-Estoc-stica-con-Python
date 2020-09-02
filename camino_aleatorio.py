@@ -22,18 +22,20 @@ def simular_caminata(pasos, numero_de_intentos, tipo_de_borracho):
         simulacion_caminata = caminata(campo, borracho, pasos)
         distancias.append(round(simulacion_caminata, 1))
 
+    return distancias
+
 def main(distancias_de_caminata, numero_de_intentos, tipo_de_borracho):
     
     for pasos in distancias_de_caminata:
-    distancias = simular_caminata(pasos, numero_de_intentos, tipo_de_borracho)
-    distancia_media = round(sum(distancias) / len(distancias), 4)
-    distancia_maxima = max(distancias)
-    distancia_minima = min(distancias)
+        distancias = simular_caminata(pasos, numero_de_intentos, tipo_de_borracho)
+        distancia_media = round(sum(distancias) / len(distancias), 4)
+        distancia_maxima = max(distancias)
+        distancia_minima = min(distancias)
 
-    print(f'{tipo_de_borracho.__name__} caminata aleatoria de {pasos}')
-    print(f'Media = {distancia_media}')
-    print(f'Max = {distancia_maxima}')
-    print(f'Min = {distancia_minima}')
+        print(f'{tipo_de_borracho.__name__} caminata aleatoria de {pasos}')
+        print(f'Media = {distancia_media}')
+        print(f'Max = {distancia_maxima}')
+        print(f'Min = {distancia_minima}')
 
 
 if __name__ == '__main__':
