@@ -18,11 +18,11 @@ def main(numero_de_tiros, numero_de_intentos):
 
     tiros_con_1 = 0
     for tiro in tiros:
-        if 1 in tiro:
+        if 1 not in tiro:
             tiros_con_1 += 1
 
     probabilidad_tiros_con_1 = tiros_con_1 / numero_de_intentos
-    print(f'Probabilidad de obtener porlo menos un 1 en {numero_de_tiros} tiros = {probabilidad_tiros_con_1}')
+    print(f'Probabilidad de NO obtener porlo menos un 1 en {numero_de_tiros} tiros = {probabilidad_tiros_con_1}')
 
 if __name__ == '__main__':
     numero_de_tiros = int(input('Cuantos tiros del dado: '))
